@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: worksans;
+    src: url(./src/fonts/worksans.ttf);
+}
+
+body {
+    background-color: #2B2B2B;
+}
+
+a {
+    color: #FFFFFF;
+    font-family: worksans;
+    text-decoration: none;
+}
+
+.sign-up-btn {
+    width: 152px;
+    height: 60px;
+    background: #A259FF;
+    border-radius: 20px;
+}
+
+.sign-up-btn button {
+    width: 152px;
+    height: 60px;
+
+    border-radius: 20px;
+
+    background-color: transparent;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: worksans;
+}
