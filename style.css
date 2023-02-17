@@ -9,6 +9,7 @@
 
 body {
     background-color: #2B2B2B;
+    padding-top: 20px;
 }
 
 a {
@@ -17,11 +18,20 @@ a {
     text-decoration: none;
 }
 
+.navmenu {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+
+    gap: 30px;
+}
+
 .sign-up-btn {
     width: 152px;
     height: 60px;
     background: #A259FF;
     border-radius: 20px;
+
 }
 
 .sign-up-btn button {
@@ -35,6 +45,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    gap: 12px;
     font-family: worksans;
 }
