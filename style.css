@@ -7,6 +7,11 @@
     src: url(./src/fonts/worksans.ttf);
 }
 
+@font-face {
+    font-family: spacemono;
+    src: url(./src/fonts/spacemono.ttf);
+}
+
 body {
     background-color: #2B2B2B;
     padding-top: 20px;
@@ -46,4 +51,56 @@ a {
     align-items: center;
     gap: 12px;
     font-family: worksans;
+}
+
+.hero-section {
+    width: 510px;
+    height: 544px;
+
+
+    /* gap: 30px; */
+}
+
+.hero-section-heading {
+    font-family: worksans;
+    color: #FFFFFF;
+}
+
+.hero-section-heading h1 {
+    font-weight: 600;
+    font-size: 67px;
+    line-height: 110%;
+}
+
+.hero-section-heading p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+}
+
+.hero-section-btn {
+    width: 224px;
+    height: 60px;
+
+    background: #A259FF;
+    border-color: transparent;
+    border-radius: 20px;
+
+    gap: 12px;
+
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.additional-info {
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.artist-card {
+    gap: 12px;
 }
