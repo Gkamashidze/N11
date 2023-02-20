@@ -35,7 +35,6 @@ a {
     height: 60px;
     background: #A259FF;
     border-radius: 20px;
-
 }
 
 .sign-up-btn button {
@@ -56,9 +55,6 @@ a {
 .hero-section {
     width: 510px;
     height: 544px;
-
-
-    /* gap: 30px; */
 }
 
 .hero-section-heading {
@@ -159,4 +155,90 @@ a {
     height: 65px;
     gap: 10px;
     color: #FFFFFF;
+}
+
+.top-rated-artists {
+    padding-top: 80px;
+}
+
+.top-creators h1 {
+    font-family: worksans;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.top-creators span {
+    font-family: worksans;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+
+}
+
+.view-rankings-btn {
+    width: 247px;
+    height: 60px;
+    border: 2px solid #A259FF;
+    border-radius: 20px;
+
+    background-color: transparent;
+    border: 2px solid #A259FF;
+
+    gap: 12px;
+}
+
+.btn-text span {
+    font-family: worksans;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #FFFFFF;
+}
+
+.artist-card-1 {
+    width: 240px;
+    height: 238px;
+    background: #3B3B3B;
+    border-radius: 20px;
+}
+
+.category-card {
+    width: 240px;
+    height: 316px;
+
+    background: #3B3B3B;
+    border-radius: 20px;
+}
+
+.discover-btn {
+    width: 187px;
+    height: 60px;
+
+    border: 2px solid #A259FF;
+    border-radius: 20px;
+
+    background-color: transparent;
+}
+
+.nft-card {
+    width: 330px;
+    height: 469px;
+    background: #3B3B3B;
+    border-radius: 20px;
+}
+
+.nft-highlight {
+    background-image: url(./src/img/NFT_Highlight.jpg);
+}
+
+.info-card {
+    width: 330px;
+height: 439px;
+
+background: #3B3B3B;
+border-radius: 20px;
 }
