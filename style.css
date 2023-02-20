@@ -104,3 +104,59 @@ a {
 .artist-card {
     gap: 12px;
 }
+
+.trending-collection {
+    padding-top: 80px;
+}
+
+.section-headline h1 {
+    font-family: worksans;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.section-headline h3 {
+    font-family: worksans;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+.collection-card-row {
+    margin-top: 60px;
+}
+
+.collection-card {
+    width: 330px;
+    height: 525px;
+    gap: 15px;
+
+    margin-bottom: 80px;
+
+}
+
+.additional-nfts {
+    width: 100px;
+    height: 100px;
+
+    background: #A259FF;
+    border-radius: 20px;
+}
+
+.additional-nfts span {
+    font-family: spacemono;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+.collection-info {
+    width: 330px;
+    height: 65px;
+    gap: 10px;
+    color: #FFFFFF;
+}
