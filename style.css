@@ -114,6 +114,7 @@ body {
 
 .trending-collection {
     padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .section-headline h1 {
@@ -132,22 +133,12 @@ body {
     color: #FFFFFF;
 }
 
-.collection-card-row {
-    margin-top: 60px;
-
-    /* display: flex;
-    justify-content: center; */
-    
-}
-
-.collection-card {
+/* .collection-card {
     width: 100%;
     height: auto;
-    /* gap: 15px; */
-
     margin-bottom: 80px;
 
-}
+} */
 
 .additional-nfts {
     width: 100px;
@@ -166,9 +157,6 @@ body {
 }
 
 .collection-info {
-    width: 100%;
-    height: auto;
-    /* gap: 10px; */
     color: #FFFFFF;
 }
 
@@ -221,14 +209,14 @@ body {
 }
 
 .artist-card-1 {
-    width: 240px;
+    width: 100%;
     height: 238px;
     background: #3B3B3B;
     border-radius: 20px;
 }
 
 .category-card {
-    width: 240px;
+    width: 100%;
     height: 316px;
 
     background: #3B3B3B;
