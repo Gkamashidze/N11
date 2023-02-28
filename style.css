@@ -17,6 +17,11 @@ body {
     padding-top: 20px;
 }
 
+.toggle-btn {
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
 
 .navmenu li> a {
     color: #FFFFFF;
