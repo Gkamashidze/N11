@@ -133,13 +133,6 @@ body {
     color: #FFFFFF;
 }
 
-/* .collection-card {
-    width: 100%;
-    height: auto;
-    margin-bottom: 80px;
-
-} */
-
 .additional-nfts {
     width: 100px;
     height: 100px;
@@ -223,7 +216,6 @@ body {
     padding-top: 20px;
 
     background: #3B3B3B;
-    /* border-radius: 20px; */
 }
 
 .discover-btn {
@@ -237,15 +229,12 @@ body {
 }
 
 .nft-card {
-    width: 330px;
-    height: 469px;
     background: #3B3B3B;
     border-radius: 20px;
 }
 
 .nft-card-nft-info {
-    padding-top: 30px;
-    padding-left: 30px;
+    padding: 30px;
 }
 
 .artist-avatar {
@@ -256,9 +245,6 @@ body {
 }
 
 .distantgalaxy-add-info {
-    width: 270px;
-    height: 43px;
-
     margin-top: 27px;
 }
 
@@ -266,7 +252,6 @@ body {
     background-image: url(./src/img/NFT_Highlight.jpg);
     padding-top: 360px;
     padding-bottom: 60px;
-    /* background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -279,11 +264,6 @@ body {
     border-radius: 20px;
 }
 
-/* .magic-mashrooms {
-
-    width: 755px;
-    height: 220px;
-} */
 .shroomie-box {
     width: 151px;
     height: 44px;
@@ -312,19 +292,15 @@ body {
     flex-direction: column;
 }
 
-/* .info-card-box {
-    flex-direction: column;
-    justify-content: center;
-} */
-
 .how-it-works {
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
 .subscribe-heading {
-    width: 425px;
-    height: 172px;
+    
+    /* width: 425px;
+    height: 172px; */
 
 }
 
@@ -355,23 +331,8 @@ body {
 
 .email-input {
     padding-left: 20px;
+    border-color: transparent;
 }
-
-/* input::placeholder {
-    font-family: worksans;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-    color: #2B2B2B;
-}
-
-.email-input::placeholder {
-    font-family: worksans;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-    color: #2B2B2B; 
-} */
 
 .footer {
     background-color: #3B3B3B;
@@ -406,18 +367,11 @@ body {
 
 }
 
-/* .ftr-subscribe-form {
-    position: relative;
-}
-
-.subscribe-btn1 {
-    position: absolute;
-} */
-
 .email-input1 {
     width: 100%;
     height: 60px;
     background: #FFFFFF;
+    border-color: transparent;
     border-radius: 20px;
 
     padding-left: 20px;
