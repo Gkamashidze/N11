@@ -13,82 +13,64 @@
 
 <body>
 
-    <div class="container">
+    <div class="container-fluid">
 
         <div class="row">
 
-            <div class="col-md-12 col-lg-12 col-sm-12 d-flex align-items-center justify-content-center">
+            <div class="navbar navbar-expand-lg main-nav ps-5 pe-5">
 
-                <div class="col-md-6 col-lg-6 col-sm-12">
-                    <img src="./src/img/Logo.png">
-                </div>
+                <div class="navbar-brand">
 
-                <div class="col-md-6 col-lg-6 col-sm-12 d-flex justify-content-between">
-
-                    <div class="navmenu">
-                        <a href="#">Marketplace</a>
-                        <a href="#">Rankings</a>
-                        <a href="#">Connect a wallet</a>
-                    </div>
-
-                    <div class="sign-up-btn">
-                        <button>
-                            <div>
-                                <img src="./src/img/uservector.png" alt="">
-                            </div>
-                            <div>
-                                <span style="color: #FFFFFF; font-size: 16px;">Sign Up</span>
-                            </div>
-                        </button>
-                    </div>
+                    <a href="#" class="navbar-brand">
+                        <img src="./src/img/Logo.png">
+                    </a>
 
                 </div>
 
-            <!-- <nav class="navbar">
-
-                <a href="#" class="navbar-brand">
-                    <img src="./src/img/Logo.png">
-                </a>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent1">
-
-                    <span class="dark-blue-text">
-                        <i class="fas fa-bars fa-1x"></i>
-                    </span>
-
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
 
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="mynav">
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-
-                    <ul class="navbar-nav">
-
-                        <li class="nav-item active">
-                            <a class="nav-link" href="">Marketplace</a>
-                        </li>
-
+                    <ul class="nav navbar-nav navbar-list navmenu">
                         <li class="nav-item">
-                            <a class="nav-link" href="">Rankings</a>
+                            <a href="" class="nav-link">Marketplace</a>
                         </li>
-
                         <li class="nav-item">
-                            <a class="nav-link" href="">Connect a wallet</a>
+                            <a href="" class="nav-link">Rankings</a>
                         </li>
-
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Connect a wallet</a>
+                        </li>
                     </ul>
 
                 </div>
-            </nav> -->
+
+                <form class="d-flex ms-5" role="button">
+
+                    <button class="btn sign-up-btn d-flex justify-content-center align-items-center" type="submit">
+
+                        <div class="me-2">
+                            <img src="./src/img/uservector.png" alt="">
+                        </div>
+
+                        <span style="color: #FFFFFF; font-size: 16px;">Sign Up</span>
+
+                    </button>
+
+                </form>
+
+            </div>
+
+
 
         </div>
 
     </div>
 
-    </div>
-
-    <div class="container">
-        <div class="row mt-5">
+    <div class="container animakid">
+        <div class="row mt-5 ">
             <div class="col-md-6 col-lg-6 col-sm-12">
 
                 <div class="col-12 hero-section">
@@ -145,7 +127,7 @@
 
             </div>
 
-            <div class="col-md-6 col-lg-6 col-sm-12">
+            <div class="col-md-6 col-lg-6 col-sm-12 d-flex justify-content-center">
                 <div class="row">
                     <div class="col-12">
                         <div>
@@ -343,21 +325,30 @@
         <div class="row d-flex align-items-end mb-5 justify-content-between">
 
             <div class="col-md-9 col-lg-9 col-sm-12 top-creators">
+
                 <h1>Top creators</h1>
                 <span>Checkout Top Rated Creators on the NFT Marketplace</span>
+
             </div>
 
-            <div class="col-md-3 col-lg-3 col-sm-12">
+            <div class="col-md-3 col-lg-3 col-sm-12 d-flex justify-content-end">
+
                 <div>
+
                     <button class="view-rankings-btn d-flex justify-content-center align-items-center">
+
                         <div>
                             <img src="./src/img/RocketLaunch1.png" alt="">
                         </div>
+
                         <div class="btn-text">
                             <span>View Rankings</span>
                         </div>
+
                     </button>
+
                 </div>
+
             </div>
 
         </div>
@@ -818,7 +809,7 @@
 
         </div>
 
-        <div class="row mt-4 mb-5 d-flex">
+        <div class="row mt-4 d-flex">
 
             <div class="col-md-3 col-lg-3 col-sm-6">
 
@@ -909,7 +900,7 @@
 
         </div>
 
-        <div class="row d-flex mb-5">
+        <div class="row d-flex">
 
             <div class="col-md-4 col-lg-4 col-sm-12">
 
@@ -1176,38 +1167,149 @@
     </div>
 
     <div class="container how-it-works">
+
         <div class="row">
+
             <div class="col-12">
+
+
                 <h1 style="font-family: worksans; font-weight: 600;
                 font-size: 38px;
                 line-height: 120%; color: #FFFFFF;">How it works</h1>
+
                 <p style="font-family: worksans; font-weight: 400;
                 font-size: 22px;
                 line-height: 160%; color: #FFFFFF;">Find out how to get started</p>
+
             </div>
+
         </div>
 
-        <div class="row d-flex justify-content-center mt-4">
+        <div class="row d-flex justify-content-between mt-4">
 
-            <div class="col-md-4 col-lg-4 col-sm-12 info-card me-4 info-card-box">
+            <div class="col-md-4 col-lg-4 col-sm-12 info-card">
+
                 <div>
+
                     <img src="./src/img/walleticon.png" alt="">
-                </div>
-                <div>
+
                     <h1 style="font-family: worksans; font-weight: 600;
-                    font-size: 22px;
-                    line-height: 140%; color: #FFFFFF;">Setup Your wallet</h1>
+                font-size: 22px;
+                line-height: 140%; color: #FFFFFF;">Setup Your wallet</h1>
+
                 </div>
+
                 <div>
+
+
                     <span style="font-family: worksans; font-weight: 400;
-                    font-size: 16px;
-                    line-height: 140%; color: #FFFFFF;">Set up your wallet of choice. Connect it to the Animarket by
+                        font-size: 16px;
+                        line-height: 140%; color: #FFFFFF; text-align: center; margin-bottom: 30px; ">Set up your
+                        wallet
+                        of choice. <br> Connect it to the Animarket
+                        by <br>
                         clicking the wallet icon in the
-                        top right corner.</span>
+                        top <br> right corner.
+                    </span>
+
                 </div>
+
             </div>
 
-            <div class="col-md-4 col-lg-4 col-sm-12 info-card me-4">
+            <div class="col-md-4 col-lg-4 col-sm-12 info-card">
+
+                <div>
+
+                    <img src="./src/img/walleticon.png" alt="">
+
+                    <h1 style="font-family: worksans; font-weight: 600;
+                font-size: 22px;
+                line-height: 140%; color: #FFFFFF;">Setup Your wallet</h1>
+
+                </div>
+
+                <div>
+
+
+                    <span style="font-family: worksans; font-weight: 400;
+                        font-size: 16px;
+                        line-height: 140%; color: #FFFFFF; text-align: center; margin-bottom: 30px; ">Set up your
+                        wallet
+                        of choice. <br> Connect it to the Animarket
+                        by <br>
+                        clicking the wallet icon in the
+                        top <br> right corner.
+                    </span>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 col-lg-4 col-sm-12 info-card">
+
+                <div>
+
+                    <img src="./src/img/walleticon.png" alt="">
+
+                    <h1 style="font-family: worksans; font-weight: 600;
+                font-size: 22px;
+                line-height: 140%; color: #FFFFFF;">Setup Your wallet</h1>
+
+                </div>
+
+                <div>
+
+
+                    <span style="font-family: worksans; font-weight: 400;
+                        font-size: 16px;
+                        line-height: 140%; color: #FFFFFF; text-align: center; margin-bottom: 30px; ">Set up your
+                        wallet
+                        of choice. <br> Connect it to the Animarket
+                        by <br>
+                        clicking the wallet icon in the
+                        top <br> right corner.
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- <div class="row d-flex mt-4">
+
+            <div class="col-md-4 col-lg-4 col-sm-12 info-card info-card-box">
+
+                <div>
+
+                    <img src="./src/img/walleticon.png" alt="">
+
+                </div>
+
+                <div>
+
+                    <h1 style="font-family: worksans; font-weight: 600;
+                        font-size: 22px;
+                        line-height: 140%; color: #FFFFFF; width: 270px;
+height: 31px;">Setup Your wallet</h1>
+
+                </div>
+
+                <div>
+
+                    <span style="font-family: worksans; font-weight: 400;
+                        font-size: 16px;
+                        line-height: 140%; color: #FFFFFF; width: 270px;
+height: 88px; text-align: center; margin-bottom: 30px;">Set up your wallet of choice. Connect it to the Animarket
+                        by
+                        clicking the wallet icon in the
+                        top right corner.</span>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 col-lg-4 col-sm-12 info-card ">
                 <div>
                     <img src="./src/img/collectionicon.png" alt="">
                 </div>
@@ -1240,7 +1342,9 @@
                         by selling your NFTs or trading others.</span>
                 </div>
             </div>
-        </div>
+
+        </div> -->
+
     </div>
 
     <div class="container subscribe-widget">
@@ -1255,7 +1359,7 @@
 
             <div class="col-md-6 col-lg-6 col-sm-12">
 
-                <div class="col-md-6 col-lg-6 col-sm-12 subscribe-heading">
+                <div class="col-md-11 col-lg-11 col-sm-12 subscribe-heading">
 
                     <h2 style="font-family: worksans; font-weight: 600;
                     font-size: 38px;
@@ -1264,14 +1368,14 @@
 
                 </div>
 
-                <div class="col-md-8 col-lg-8 col-sm-12 mb-5">
+                <div class="col-md-12 col-lg-12 col-sm-12 mb-5">
                     <span style="font-family: worksans; font-weight: 400;
                     font-size: 22px;
                     line-height: 160%; color: #FFFFFF;">Get exclusive promotions & updates straight to your
                         inbox.</span>
                 </div>
 
-                <div class="col-md-8" style="position: relative;">
+                <div class="col-md-12" style="position: relative;">
 
                     <div>
                         <input class="email-input" type="email" placeholder="Enter your email here">
@@ -1344,7 +1448,7 @@
 
                 </div>
 
-                <div class="col-md-4 col-lg-4 col-sm-12">
+                <div class="col-md-3 col-lg-3 col-sm-12">
                     <div>
                         <div>
                             <h1 style="font-family: spacemono; font-weight: 700;
@@ -1366,7 +1470,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-lg-4 col-sm-12">
+                <div class="col-md-5 col-lg-5 col-sm-12">
 
                     <div class="mb-3">
 
@@ -1377,6 +1481,7 @@
                         font-size: 16px;
                         line-height: 140%; color: #CCCCCC;">Get exclusive promotions & updates straight to your
                             inbox.</span>
+
                     </div>
 
                     <div style="position: relative;">

@@ -17,7 +17,8 @@ body {
     padding-top: 20px;
 }
 
-.navmenu>a {
+
+.navmenu li> a {
     color: #FFFFFF;
     font-family: worksans;
     text-decoration: none;
@@ -66,6 +67,11 @@ body {
 .hero-section {
     width: 510px;
     height: 544px;
+}
+
+.animakid {
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .hero-section-heading {
@@ -201,6 +207,10 @@ body {
     color: #FFFFFF;
 }
 
+.discover-more-nfts {
+    padding-top: 80px;
+}
+
 .artist-card-1 {
     width: 100%;
     height: 238px;
@@ -216,6 +226,10 @@ body {
     padding-top: 20px;
 
     background: #3B3B3B;
+}
+
+.discover-more-nfts {
+    padding-bottom: 80px;
 }
 
 .discover-btn {
@@ -249,7 +263,7 @@ body {
 }
 
 .nft-highlight {
-    background-image: url(./src/img/NFT_Highlight.jpg);
+    background-image: url(./src/img/NFTInfo.png);
     padding-top: 360px;
     padding-bottom: 60px;
     background-repeat: no-repeat;
@@ -262,6 +276,8 @@ body {
 
     background: #3B3B3B;
     border-radius: 20px;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
 .shroomie-box {
@@ -297,19 +313,14 @@ body {
     padding-bottom: 80px;
 }
 
-.subscribe-heading {
-    
-    /* width: 425px;
-    height: 172px; */
-
-}
-
 .subscribe-widget {
     background: #3B3B3B;
     border-radius: 20px;
 
     padding-top: 60px;
     padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
 
     margin-top: 40px;
     margin-bottom: 80px;
