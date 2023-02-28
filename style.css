@@ -49,19 +49,14 @@ body {
     height: 60px;
     background: #A259FF;
     border-radius: 20px;
-
     border-color: transparent;
-
 }
 
 .sign-up-btn button {
     width: 152px;
     height: 60px;
-
     border-radius: 20px;
-
     background-color: transparent;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,15 +94,11 @@ body {
 .hero-section-btn {
     width: 224px;
     height: 60px;
-
     background: #A259FF;
     border-color: transparent;
     border-radius: 20px;
-
     gap: 12px;
-
     margin-bottom: 30px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,7 +138,6 @@ body {
 .additional-nfts {
     width: 100px;
     height: 100px;
-
     background: #A259FF;
     border-radius: 20px;
 }
@@ -188,7 +178,6 @@ body {
     font-size: 22px;
     line-height: 160%;
     color: #FFFFFF;
-
 }
 
 .view-rankings-btn {
@@ -196,10 +185,8 @@ body {
     height: 60px;
     border: 2px solid #A259FF;
     border-radius: 20px;
-
     background-color: transparent;
     border: 2px solid #A259FF;
-
     gap: 12px;
 }
 
@@ -208,7 +195,6 @@ body {
     font-weight: 600;
     font-size: 16px;
     line-height: 140%;
-
     color: #FFFFFF;
 }
 
@@ -226,10 +212,8 @@ body {
 .category-card {
     width: 240px;
     height: 76px;
-
     padding-left: 30px;
     padding-top: 20px;
-
     background: #3B3B3B;
 }
 
@@ -240,10 +224,8 @@ body {
 .discover-btn {
     width: 187px;
     height: 60px;
-
     border: 2px solid #A259FF;
     border-radius: 20px;
-
     background-color: transparent;
 }
 
@@ -259,7 +241,6 @@ body {
 .artist-avatar {
     width: 270px;
     height: 24px;
-
     gap: 12px;
 }
 
@@ -278,7 +259,6 @@ body {
 .info-card {
     width: 330px;
     height: 439px;
-
     background: #3B3B3B;
     border-radius: 20px;
     padding-bottom: 30px;
@@ -288,7 +268,6 @@ body {
 .shroomie-box {
     width: 151px;
     height: 44px;
-
     background: #3B3B3B;
     border-radius: 20px;
 }
@@ -296,10 +275,8 @@ body {
 .nft-info-btn {
     width: 198px;
     height: 60px;
-
     background: #FFFFFF;
     border-radius: 20px;
-
     border-color: transparent;
 }
 
@@ -309,7 +286,6 @@ body {
     background: rgba(59, 59, 59, 0.5);
     backdrop-filter: blur(5px);
     border-radius: 20px;
-
     flex-direction: column;
 }
 
@@ -321,27 +297,21 @@ body {
 .subscribe-widget {
     background: #3B3B3B;
     border-radius: 20px;
-
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 30px;
     padding-right: 30px;
-
     margin-top: 40px;
     margin-bottom: 80px;
-
 }
 
 .subscribe-btn {
     width: 211px;
     height: 60px;
-
     background: #A259FF;
     border-radius: 20px;
-
     justify-content: center;
     align-items: center;
-
     border-color: transparent;
 }
 
@@ -369,7 +339,6 @@ body {
 .footer-explore {
     width: 133px;
     height: 106px;
-
 }
 
 .footer-explore-pages>a {
@@ -378,9 +347,7 @@ body {
     font-size: 16px;
     line-height: 140%;
     color: #CCCCCC;
-
     text-decoration: none;
-
 }
 
 .email-input1 {
@@ -389,6 +356,5 @@ body {
     background: #FFFFFF;
     border-color: transparent;
     border-radius: 20px;
-
     padding-left: 20px;
 }
