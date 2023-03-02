@@ -257,12 +257,9 @@ body {
 }
 
 .info-card {
-    /* width: 330px;
-    height: 439px; */
     background: #3B3B3B;
     border-radius: 20px;
-    /* padding-bottom: 30px; */
-    text-align: center;
+    padding-bottom: 30px;
 }
 
 .shroomie-box {
