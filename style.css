@@ -23,7 +23,7 @@ body {
 }
 
 
-.navmenu li> a {
+.navmenu li>a {
     color: #FFFFFF;
     font-family: worksans;
     text-decoration: none;
@@ -255,6 +255,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 .info-card {
     background: #3B3B3B;
