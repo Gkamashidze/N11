@@ -20,52 +20,55 @@
 
         <div class="row">
 
-            <div class="navbar navbar-expand-lg main-nav ps-5 pe-5">
+            <nav class="navbar navbar-expand-lg main-nav ps-5 pe-5">
+                <a class="navbar-brand" href="#">
+                    <img src="./src/img/Logo.png">
+                </a>
 
-                <div class="navbar-brand">
-
-                    <a href="#" class="navbar-brand">
-                        <img src="./src/img/Logo.png">
-                    </a>
-
-                </div>
-
-                <button class="navbar-toggler toggle-btn" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#myNav">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="myNav">
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
 
-                    <ul class="nav navbar-nav navbar-list navmenu">
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Marketplace</a>
+                    <ul class="navbar-nav navmenu">
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
                         </li>
+
                         <li class="nav-item">
-                            <a href="" class="nav-link">Rankings</a>
+                            <a class="nav-link" href="#">Marketplace</a>
                         </li>
+
                         <li class="nav-item">
-                            <a href="" class="nav-link">Connect a wallet</a>
+                            <a class="nav-link" href="#">Rankings</a>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Connect a wallet</a>
+                        </li>
+
                     </ul>
+
+                    <div class="ms-5">
+
+                        <button class="btn sign-up-btn d-flex justify-content-center align-items-center" type="submit">
+
+                            <div class="me-2">
+                                <img src="./src/img/uservector.png" alt="">
+                            </div>
+
+                            <span style="color: #FFFFFF; font-size: 16px;">Sign Up</span>
+
+                        </button>
+
+                    </div>
 
                 </div>
 
-                <form class="d-flex ms-5" role="button">
-
-                    <button class="btn sign-up-btn d-flex justify-content-center align-items-center" type="submit">
-
-                        <div class="me-2">
-                            <img src="./src/img/uservector.png" alt="">
-                        </div>
-
-                        <span style="color: #FFFFFF; font-size: 16px;">Sign Up</span>
-
-                    </button>
-
-                </form>
-
-            </div>
+            </nav>
 
 
 
@@ -716,7 +719,7 @@
                         <img src="./src/img/artback.png" alt="" style="width: 100%;">
                     </div>
 
-                    <div style="position: absolute; top: 0;">
+                    <div style="position: absolute; top: 30%; right: 30%;">
                         <img src="./src/img/PaintBrush.png" alt="">
                     </div>
                 </div>
@@ -732,7 +735,7 @@
                         <img src="./src/img/Videoback.png" alt="" style="width: 100%;">
                     </div>
 
-                    <div style="position: absolute; top: 0;">
+                    <div style="position: absolute; top: 30%; right: 30%;">
                         <img src="./src/img/VideoCamera.png" alt="">
                     </div>
                 </div>
@@ -753,7 +756,7 @@
                         <img src="./src/img/Collectiblesback.png" alt="" style="width: 100%;">
                     </div>
 
-                    <div style="position: absolute; top: 0;">
+                    <div style="position: absolute; top: 30%; right: 30%;">
                         <img src="./src/img/Swatches.png" alt="">
                     </div>
 
@@ -771,7 +774,7 @@
                         <img src="./src/img/Utilityback.png" alt="" style="width: 100%;">
                     </div>
 
-                    <div style="position: absolute; top: 0;">
+                    <div style="position: absolute; top: 30%; right: 30%;">
                         <img src="./src/img/MagicWand.png" alt="">
                     </div>
 
@@ -793,7 +796,7 @@
                         <img src="./src/img/Musicback.png" alt="" style="width: 100%;">
                     </div>
 
-                    <div style="position: absolute; top: 0;">
+                    <div style="position: absolute; top: 30%; right: 30%;">
                         <img src="./src/img/MusicNotes.png" alt="">
                     </div>
 
@@ -811,7 +814,7 @@
                         <img src="./src/img/Sportback.png" alt="" style="width: 100%;">
                     </div>
 
-                    <div style="position: absolute; top: 0;">
+                    <div style="position: absolute; top: 30%; right: 30%;">
                         <img src="./src/img/Basketball.png" alt="">
                     </div>
 
@@ -833,7 +836,7 @@
                         <img src="./src/img/Photographyback.png" alt="" style="width: 100%;">
                     </div>
 
-                    <div style="position: absolute; top: 0;">
+                    <div style="position: absolute; top: 30%; right: 30%;">
                         <img src="./src/img/Camera.png" alt="">
                     </div>
 
@@ -851,7 +854,7 @@
                         <img src="./src/img/VirtualWorldsback.png" alt="" style="width: 100%;">
                     </div>
 
-                    <div style="position: absolute; top: 0;">
+                    <div style="position: absolute; top: 30%; right: 30%;">
                         <img src="./src/img/Planet.png" alt="">
                     </div>
 
@@ -1232,12 +1235,11 @@
                     <div>
 
                         <span style="font-family: worksans; font-weight: 400;
-                            font-size: 16px;
-                            line-height: 140%; color: #FFFFFF; text-align: center; margin-bottom: 30px; ">
-
-                            Upload your work and setup your <br> collection. Add a description, <br> social links and
-                            floor
-                            price.
+                        font-size: 16px;
+                        line-height: 140%; color: #FFFFFF; text-align: center; margin-bottom: 30px;">
+                            Choose between auctions and <br> fixed-price listings. Start earning <br> by selling your
+                            NFTs
+                            or trading <br> others.
                         </span>
 
                     </div>
@@ -1296,7 +1298,7 @@
 
                     <h2 style="font-family: worksans; font-weight: 600;
                     font-size: 38px;
-                    line-height: 120%; color: #FFFFFF;">Join our weekly digest</h2>
+                    line-height: 120%; color: #FFFFFF;">Join our weekly <br> digest</h2>
 
 
                 </div>
@@ -1304,34 +1306,32 @@
                 <div class="col-md-12 col-lg-12 col-sm-12 mb-5">
                     <span style="font-family: worksans; font-weight: 400;
                     font-size: 22px;
-                    line-height: 160%; color: #FFFFFF;">Get exclusive promotions & updates straight to your
+                    line-height: 160%; color: #FFFFFF;">Get exclusive promotions & updates <br> straight to your
                         inbox.</span>
                 </div>
 
-                <div class="col-md-12" style="position: relative;">
+                <div class="col-md-12 d-flex">
 
-                    <div>
-                        <input class="email-input" type="email" placeholder="Enter your email here">
-                    </div>
 
-                    <div style="position: absolute; top: 0; right: 0;">
+                    <div style="position: relative;">
 
-                        <button class="d-flex subscribe-btn">
+                        <input type="text" class="email-input" placeholder="Enter your email here">
 
-                            <div class="me-2">
-                                <img src="./src/img/EnvelopeSimple.png" alt="">
-                            </div>
 
-                            <div>
-                                <span style="font-family: worksans; font-weight: 600;
-                                font-size: 16px;
-                                line-height: 140%; color: #FFFFFF;">Subscribe</span>
-                            </div>
+                        <button type="submit" class="subscribe-btn" style="position: absolute; right: 0;">
+
+                            <img src="./src/img/EnvelopeSimple.png" alt="" class="me-2">
+
+                            <span style="font-family: worksans; font-weight: 600;
+                        font-size: 16px;
+                        line-height: 140%; color: #FFFFFF;">Subscribe</span>
 
                         </button>
 
                     </div>
+
                 </div>
+
             </div>
 
         </div>
@@ -1412,30 +1412,23 @@
                         line-height: 160%; color: #FFFFFF;">Join our weekly digest</h2>
                         <span style="font-family: worksans; font-weight: 400;
                         font-size: 16px;
-                        line-height: 140%; color: #CCCCCC;">Get exclusive promotions & updates straight to your
+                        line-height: 140%; color: #CCCCCC;">Get exclusive promotions & updates <br> straight to your
                             inbox.</span>
 
                     </div>
 
                     <div style="position: relative;">
 
-                        <div class="ftr-subscribe-form">
-                            <input class="email-input1" type="email" placeholder="Enter your email here">
-                        </div>
+                        <input type="text" class="email-input" placeholder="Enter your email here">
 
-                        <div style="position: absolute; top: 0; right: 0;">
 
-                            <button class="d-flex subscribe-btn subscribe-btn1">
+                        <button type="submit" class="subscribe-btn" style="position: absolute; right: 0;">
 
-                                <div>
-                                    <span style="font-family: worksans; font-weight: 600;
-                                    font-size: 16px;
-                                    line-height: 140%; color: #FFFFFF;">Subscribe</span>
-                                </div>
+                            <span style="font-family: worksans; font-weight: 600;
+                        font-size: 16px;
+                        line-height: 140%; color: #FFFFFF;">Subscribe</span>
 
-                            </button>
-
-                        </div>
+                        </button>
 
                     </div>
 
