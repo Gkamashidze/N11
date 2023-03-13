@@ -143,6 +143,28 @@ body {
     padding-bottom: 80px;
 }
 
+@media (max-width: 375px) {
+    .trending-collection {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .PhotoPlaceholder1 {
+        display: none !important;
+    }
+
+    .PhotoPlaceholder3 {
+        display: none !important;
+    }
+
+    .PhotoPlaceholder4 {
+        display: none !important;
+    }
+}
+
 .section-headline h1 {
     font-family: worksans;
     font-weight: 600;
@@ -178,9 +200,88 @@ body {
     color: #FFFFFF;
 }
 
+@media (max-width: 375px) {
+
+    .info1 {
+        display: none !important;
+    }
+
+    .info2 {
+        display: none !important;
+    }
+
+}
+
 .top-rated-artists {
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+@media (max-width: 375px) {
+    .top-rated-artists {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .RustyRobot {
+        display: none !important;
+    }
+
+    .mrfox {
+        display: none !important;
+    }
+
+    .animakid {
+        display: none !important;
+    }
+
+    .Shroomie {
+        display: none !important;
+    }
+
+    .Dotgu {
+        display: none !important;
+    }
+
+    .robotica {
+        display: none !important;
+    }
+
+    .keepitreal {
+        display: flex;
+        align-items: center;
+    }
+
+    .BlueWhale {
+        display: flex;
+        align-items: center;
+    }
+
+    .DigiLab {
+        display: flex;
+        align-items: center;
+    }
+
+    .GravityOne {
+        display: flex;
+        align-items: center;
+    }
+
+    .Juanie {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .browse-categories {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
 }
 
 .browse-categories {
@@ -225,6 +326,20 @@ body {
 .discover-more-nfts {
     padding-top: 80px;
 }
+
+@media (max-width: 375px) {
+
+    .discover-more-nfts {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+
+    /* .discover-more-nfts-col1 {
+        margin-bottom: 10px !important;
+    } */
+}
+
+
 
 .artist-card-1 {
     width: 100%;
@@ -281,10 +396,33 @@ body {
 }
 
 
+
+@media (max-width: 375px) {
+
+    .nft-highlight {
+        background-image: url(./src/img/NFT_Highlightmobile.png);
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+}
+
 .info-card {
     background: #3B3B3B;
     border-radius: 20px;
     padding-bottom: 30px;
+}
+
+@media (max-width: 375px) {
+
+    .info-card {
+        display: flex;
+        align-items: center;
+    }
+
+    .walleticon {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 .shroomie-box {
@@ -316,6 +454,16 @@ body {
     padding-bottom: 80px;
 }
 
+@media (max-width: 375px) {
+
+    .how-it-works {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+}
+
+
+
 .subscribe-widget {
     background: #3B3B3B;
     border-radius: 20px;
@@ -325,6 +473,19 @@ body {
     padding-right: 30px;
     margin-top: 40px;
     margin-bottom: 80px;
+}
+
+@media (max-width: 375px) {
+
+    .subscribe-widget {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+
+    .subscribephoto {
+        width: 315px !important;
+        height: 255px !important;
+    }
 }
 
 .subscribe-btn {
