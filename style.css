@@ -17,6 +17,10 @@ body {
     padding-top: 20px;
 }
 
+.navmenu li a:hover {
+    color: #A259FF !important;
+}
+
 .toggle-btn {
     color: #FFFFFF;
     background-color: #FFFFFF;
@@ -217,10 +221,81 @@ body {
     padding-bottom: 80px;
 }
 
+.keepitreal {
+    position: relative;
+}
+
+.BlueWhale {
+    position: relative;
+}
+
+.RustyRobot {
+    position: relative;
+}
+
+.DigiLab {
+    position: relative;
+}
+
+.mrfox {
+    position: relative;
+}
+
+.animakid {
+    position: relative;
+}
+
+.GravityOne {
+    position: relative;
+}
+
+.Shroomie {
+    position: relative;
+}
+
+.Dotgu {
+    position: relative;
+}
+
+.Juanie {
+    position: relative;
+}
+
+.robotica {
+    position: relative;
+}
+
+.ranking-number {
+    background: #2B2B2B;
+    border-radius: 20px;
+    position: absolute;
+
+    text-align: center;
+
+    width: 30px;
+    height: 30px;
+
+    top: 20px;
+    left: 20px;
+}
+
+.ranking-number>span {
+    color: #858584;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    font-family: spacemono;
+}
+
 @media (max-width: 375px) {
     .top-rated-artists {
         padding-top: 40px !important;
         padding-bottom: 40px !important;
+    }
+
+    .ranking-number {
+        top: 12px;
+        left: 12px;
     }
 }
 
@@ -253,6 +328,29 @@ body {
     .keepitreal {
         display: flex;
         align-items: center;
+    }
+
+    .keepitreal-img {
+        /* margin-bottom: 20px; */
+    }
+
+    @media (max-width: 375px) {
+        .keepitreal {
+            width: 100% !important;
+            height: 100px !important;
+            padding: 20px;
+        }
+
+        .keepitreal-img {
+            width: 60px;
+            height: 60px;
+            margin-right: 20px;
+        }
+
+        .Keepitreal-box>h3 {
+            text-align: left !important;
+        }
+
     }
 
     .BlueWhale {
@@ -288,6 +386,20 @@ body {
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
+.bg-image {
+    filter: blur(7.5px);
+}
+
+/* .blur-box {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    filter: blur(7.5px);
+    top: 0;
+    z-index: 1;
+} */
 
 .top-creators h1 {
     font-family: worksans;
@@ -410,6 +522,8 @@ body {
     background: #3B3B3B;
     border-radius: 20px;
     padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 @media (max-width: 375px) {
@@ -462,6 +576,12 @@ body {
     }
 }
 
+.subscribe-form {
+    width: 425px;
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
 
 
 .subscribe-widget {
@@ -489,8 +609,8 @@ body {
 }
 
 .subscribe-btn {
-    width: 211px;
-    height: 60px;
+    width: 100%;
+    /* height: 60px; */
     background: #A259FF;
     border-radius: 20px;
     justify-content: center;
