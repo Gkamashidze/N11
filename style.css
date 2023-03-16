@@ -335,6 +335,37 @@ body {
     }
 
     @media (max-width: 375px) {
+
+        .top-creators>h1 {
+            font-weight: 600 !important;
+            font-size: 28px !important;
+            line-height: 140% !important;
+        }
+
+        .section-headline>h1 {
+            font-weight: 600 !important;
+            font-size: 28px !important;
+            line-height: 140% !important;
+        }
+
+        .section-headline>h3 {
+            font-weight: 400 !important;
+            font-size: 16px !important;
+            line-height: 140% !important;
+        }
+
+        .browse-categories-heading>h1 {
+            font-weight: 600 !important;
+            font-size: 28px !important;
+            line-height: 140% !important;
+        }
+
+        .top-creators>span {
+            font-weight: 400 !important;
+            font-size: 16px !important;
+            line-height: 140% !important;
+        }
+
         .keepitreal {
             width: 100% !important;
             height: 100px !important;
@@ -347,10 +378,95 @@ body {
             margin-right: 20px;
         }
 
+        .Keepitreal-box {
+            align-items: flex-start !important;
+        }
+
         .Keepitreal-box>h3 {
             text-align: left !important;
         }
 
+        .BlueWhale {
+            width: 100% !important;
+            height: 100px !important;
+            padding: 20px;
+        }
+
+        .BlueWhale-box {
+            align-items: flex-start !important;
+
+        }
+
+        .BlueWhale-img {
+            width: 60px;
+            height: 60px;
+            margin-right: 20px;
+        }
+
+        .DigiLab {
+            width: 100% !important;
+            height: 100px !important;
+            padding: 20px;
+        }
+
+        .DigiLab-box {
+            align-items: flex-start !important;
+        }
+
+        .DigiLab-img {
+            width: 60px;
+            height: 60px;
+            margin-right: 20px;
+        }
+
+        .GravityOne {
+            width: 100% !important;
+            height: 100px !important;
+            padding: 20px;
+        }
+
+        .GravityOne-box {
+            align-items: flex-start !important;
+        }
+
+        .GravityOne-img {
+            width: 60px;
+            height: 60px;
+            margin-right: 20px;
+        }
+
+        .Juanie {
+            width: 100% !important;
+            height: 100px !important;
+            padding: 20px;
+        }
+
+        .Juanie-box {
+            align-items: flex-start !important;
+        }
+
+        .Juanie-img {
+            width: 60px;
+            height: 60px;
+            margin-right: 20px;
+        }
+
+    }
+
+    .discover-more-nfts-heading>h1 {
+        font-weight: 600 !important;
+        font-size: 28px !important;
+        line-height: 140% !important;
+    }
+
+    .discover-more-nfts-heading>span {
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        line-height: 140% !important;
+    }
+
+    .discover-btn {
+        width: 100% !important;
     }
 
     .BlueWhale {
@@ -371,6 +487,10 @@ body {
     .Juanie {
         display: flex;
         align-items: center;
+    }
+
+    .nft-info-btn {
+        width: 100% !important;
     }
 }
 
@@ -446,9 +566,10 @@ body {
         padding-bottom: 40px !important;
     }
 
-    /* .discover-more-nfts-col1 {
-        margin-bottom: 10px !important;
-    } */
+    .view-rankings-btn {
+        width: 100%;
+    }
+
 }
 
 
@@ -515,7 +636,61 @@ body {
         background-image: url(./src/img/NFT_Highlightmobile.png);
         padding-top: 40px !important;
         padding-bottom: 40px !important;
+        /* background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%); */
+
     }
+
+    .how-it-works-heading>h1 {
+        font-weight: 600 !important;
+        font-size: 28px !important;
+        line-height: 140% !important;
+    }
+
+    .how-it-works-heading>p {
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        line-height: 140% !important;
+    }
+
+    .info-card {
+        align-items: center !important;
+        padding-bottom: 0 !important;
+        text-align: left !important;
+        padding: 20px !important;
+    }
+
+    .info-card1 {
+        margin-left: 20px;
+    }
+
+    .info-card1>h1 {
+        font-weight: 600 !important;
+        font-size: 16px !important;
+        line-height: 140% !important;
+    }
+
+    .info-card1>span {
+        font-weight: 400 !important;
+        font-size: 12px !important;
+        line-height: 140% !important;
+    }
+
+    .subscribe-widget-heading>h2 {
+        font-weight: 600 !important;
+        font-size: 28px !important;
+        line-height: 140% !important;
+    }
+
+    .subscribe-widget-heading>span {
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        line-height: 140% !important;
+    }
+
+    .email-input {
+        width: 100% !important;
+    }
+
 }
 
 .info-card {
@@ -574,6 +749,10 @@ body {
         padding-top: 40px !important;
         padding-bottom: 40px !important;
     }
+
+    .auction-timer-box {
+        justify-content: flex-start !important;
+    }
 }
 
 .subscribe-form {
@@ -605,6 +784,14 @@ body {
     .subscribephoto {
         width: 315px !important;
         height: 255px !important;
+    }
+
+    .subscribe-btn {
+        width: 100% !important;
+    }
+
+    .Explore-h {
+        margin-top: 30px;
     }
 }
 
