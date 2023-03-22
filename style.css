@@ -496,6 +496,7 @@ body {
 
     .discover-more-nfts-heading {
         width: 315px !important;
+        /* margin-bottom: 20px !important; */
     }
 
     .discover-more-nfts-col1 {
@@ -611,10 +612,10 @@ body {
         padding-bottom: 0 !important;
     }
 
-    
+
 
     .view-rankings-btn {
-        visibility: hidden;
+        width: 100% !important;
     }
 
 
@@ -735,6 +736,7 @@ body {
 
     .email-input {
         width: 100% !important;
+        padding: 12px !important;
     }
 
 }
@@ -830,17 +832,33 @@ body {
 
 @media (max-width: 375px) {
 
+    .subscribe-form {
+        display: grid !important;
+        background-color: #2B2B2B !important;
+    }
+
+    .subscribe-form1 {
+        display: grid !important;
+        background-color: #3B3B3B !important;
+    }
+
+    /* .subscribe-btn-box {
+        margin-top: 16px !important;
+        padding: 12px !important;
+    } */
+
     .subscribe-widget {
         padding-top: 40px !important;
         padding-bottom: 0 !important;
         margin-top: 0px;
         background-color: transparent !important;
-        /* padding-left: 0 !important;
-        padding-right: 0 !important; */
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 
     .subscribephoto1 {
         margin-bottom: 30px !important;
+        width: 100% !important;
     }
 
     .subscribephoto {
@@ -850,6 +868,8 @@ body {
 
     .subscribe-btn {
         width: 100% !important;
+        padding: 12px !important;
+        /* margin-top: 16px !important; */
     }
 
     .Explore-h {
@@ -860,7 +880,7 @@ body {
 
 .subscribe-btn {
     width: 100%;
-/* height: 100vh; */
+    /* height: 100vh; */
     background: #A259FF;
     border-radius: 20px;
     justify-content: center;
@@ -880,6 +900,7 @@ body {
 .email-input {
     padding: 20px;
     border-color: transparent;
+    margin-bottom: 16px !important;
 }
 
 .footer {
