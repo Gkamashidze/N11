@@ -739,6 +739,12 @@ body {
         padding: 12px !important;
     }
 
+    .email-input1 {
+        width: 100% !important;
+        height: auto !important;
+        padding: 12px !important;
+    }
+
 }
 
 .info-card {
@@ -815,7 +821,13 @@ body {
     position: relative;
     background-color: #FFFFFF;
     border-radius: 20px;
-    /* margin-right: 60px; */
+}
+
+.subscribe-form1 {
+    width: 100%;
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 20px;
 }
 
 
@@ -842,10 +854,10 @@ body {
         background-color: #3B3B3B !important;
     }
 
-    /* .subscribe-btn-box {
+    .subscribe-btn-box {
         margin-top: 16px !important;
-        padding: 12px !important;
-    } */
+        /* padding: 12px !important; */
+    }
 
     .subscribe-widget {
         padding-top: 40px !important;
@@ -872,6 +884,12 @@ body {
         /* margin-top: 16px !important; */
     }
 
+    .subscribe-btn1 {
+        width: 100% !important;
+        padding: 12px !important;
+        margin-top: 16px !important;
+    }
+
     .Explore-h {
         margin-top: 30px;
     }
@@ -879,6 +897,16 @@ body {
 }
 
 .subscribe-btn {
+    width: 100%;
+    /* height: 100vh; */
+    background: #A259FF;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    border-color: transparent;
+}
+
+.subscribe-btn1 {
     width: 100%;
     /* height: 100vh; */
     background: #A259FF;
@@ -900,7 +928,6 @@ body {
 .email-input {
     padding: 20px;
     border-color: transparent;
-    margin-bottom: 16px !important;
 }
 
 .footer {
