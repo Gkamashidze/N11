@@ -97,6 +97,7 @@ body {
 
 @media (max-width: 375px) {
 
+
     .hero-section-heading>h1 {
         font-weight: 600 !important;
         font-size: 28px !important;
@@ -678,6 +679,7 @@ body {
     background-size: cover;
 }
 
+
 @media (max-width: 375px) {
 
     .nft-highlight {
@@ -791,11 +793,17 @@ body {
     backdrop-filter: blur(5px);
     border-radius: 20px;
     flex-direction: column;
+    
+    
 }
 
 .how-it-works {
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.auction-timer-box {
+    align-items: flex-end !important;
 }
 
 @media (max-width: 375px) {
@@ -866,6 +874,7 @@ body {
         background-color: transparent !important;
         padding-left: 0 !important;
         padding-right: 0 !important;
+        padding-left: 12px !important;
     }
 
     .subscribephoto1 {
