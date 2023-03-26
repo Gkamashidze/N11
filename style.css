@@ -101,8 +101,13 @@ background-image: url(./src/img/burgermenu.png);
     line-height: 110%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
 
+    .navbartogglebtn {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: space-between !important;
+    }
 
     .hero-section-heading>h1 {
         font-weight: 600 !important;
@@ -171,7 +176,7 @@ background-image: url(./src/img/burgermenu.png);
     padding-bottom: 80px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
 
     .trending-collection {
         padding-top: 40px !important;
@@ -179,7 +184,7 @@ background-image: url(./src/img/burgermenu.png);
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
 
     .PhotoPlaceholder1 {
         display: none !important;
@@ -229,7 +234,7 @@ background-image: url(./src/img/burgermenu.png);
     color: #FFFFFF;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
 
     .info1 {
         display: none !important;
@@ -323,7 +328,7 @@ background-image: url(./src/img/burgermenu.png);
     font-family: spacemono;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
 
     .top-rated-artists {
         padding-top: 40px !important;
@@ -336,7 +341,7 @@ background-image: url(./src/img/burgermenu.png);
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
 
     .RustyRobot {
         display: none !important;
@@ -388,7 +393,7 @@ background-image: url(./src/img/burgermenu.png);
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
 
     .top-creators>h1 {
         font-weight: 600 !important;
@@ -561,7 +566,7 @@ background-image: url(./src/img/burgermenu.png);
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
 
     .browse-categories {
         padding-top: 40px !important;
@@ -616,7 +621,7 @@ background-image: url(./src/img/burgermenu.png);
     padding-top: 80px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
 
     .discover-more-nfts {
         padding-top: 40px !important;
@@ -693,7 +698,7 @@ background-image: url(./src/img/burgermenu.png);
 
 
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
 
     .nft-highlight {
         background-image: url(./src/img/NFT_Highlightmobile.png);
@@ -779,7 +784,7 @@ background-image: url(./src/img/burgermenu.png);
     padding-top: 10px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
 
     .info-card {
         display: flex;
@@ -827,7 +832,7 @@ background-image: url(./src/img/burgermenu.png);
     align-items: flex-end !important;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
 
     .how-it-works {
         padding-top: 40px !important;
@@ -871,7 +876,7 @@ background-image: url(./src/img/burgermenu.png);
     margin-bottom: 80px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
 
     .subscribe-form {
         display: grid !important;
