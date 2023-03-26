@@ -22,8 +22,12 @@ body {
 }
 
 .toggle-btn {
-    color: #FFFFFF;
-    background-color: #FFFFFF;
+    color: #2B2B2B;
+    background-color: #2B2B2B;
+}
+
+.navbar-toggler-icon {
+background-image: url(./src/img/burgermenu.png);
 }
 
 .main-nav {
@@ -683,7 +687,10 @@ body {
     padding-bottom: 60px;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
+
+
 
 
 @media (max-width: 375px) {
@@ -692,7 +699,15 @@ body {
         background-image: url(./src/img/NFT_Highlightmobile.png);
         padding-top: 120px !important;
         padding-bottom: 40px !important;
-        margin-top: 20px;
+        margin-top: 20px !important;
+        z-index: 2 !important;
+    }
+
+    .lineargradient {
+        top: 0;
+        left: 0;
+        background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%) !important;
+        z-index: -1 !important;
     }
 
     .how-it-works-heading>h1 {
