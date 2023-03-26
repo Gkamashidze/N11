@@ -237,6 +237,17 @@ body {
 
 }
 
+.blurbox {
+    backdrop-filter: blur(7.5px) !important;
+    z-index: 1 !important;
+    position: absolute;
+    top: 0;
+}
+
+.browse-categories-img {
+    z-index: 2;
+}
+
 .top-rated-artists {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -351,8 +362,8 @@ body {
     }
 
     .browse-categories-img {
-        top: 20px !important;
-        left: 20px !important;
+        top: 40px !important;
+        left: 40px !important;
     }
 
     .Shroomie {
