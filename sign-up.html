@@ -13,6 +13,16 @@
     <title>Sign Up</title>
 
     <style>
+        @font-face {
+            font-family: worksans;
+            src: url(./src/fonts/worksans.ttf);
+        }
+
+        @font-face {
+            font-family: spacemono;
+            src: url(./src/fonts/spacemono.ttf);
+        }
+
         body {
             background-color: #2B2B2B;
             padding-top: 20px;
@@ -58,15 +68,27 @@
             margin-left: 30px;
         }
 
-        .create-account-col1>img {
-            /* width: 100%; */
+        .sign-up-btn>span {
+            font-family: worksans;
         }
+
+        .create-account-col1>img {
+            width: 100%;
+        }
+
+        /* .create-account-col1 {
+            background-image: url(./src/img/galaxyphotoforsignuppage.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+        } */
 
         .create-account-col2 {
             padding-right: 150px;
+            padding-top: 100px;
         }
 
         .create-account-col2>h1 {
+            font-family: worksans;
             color: #FFFFFF;
             font-weight: 600;
             font-size: 51px;
@@ -74,10 +96,13 @@
         }
 
         .create-account-col2>p {
+            font-family: worksans;
             color: #FFFFFF;
             font-weight: 400;
             font-size: 22px;
             line-height: 160%;
+
+            margin-right: 150px;
         }
 
         .input-box {
@@ -180,10 +205,175 @@
         }
 
         .create-account-btn>span {
+            font-family: worksans;
             font-weight: 600;
             font-size: 16px;
             line-height: 140%;
             color: #FFFFFF;
+        }
+
+        ::placeholder {
+            font-family: worksans;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            color: #2B2B2B;
+        }
+
+        .footer {
+            background-color: #3B3B3B;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .footer-nft-marketplace {
+            width: 238px;
+            height: 44px;
+        }
+
+        .footer-nft-marketplace>span {
+            font-family: worksans;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            color: #CCCCCC;
+        }
+
+        .footer-icons {
+            width: 158px;
+            height: 32px;
+        }
+
+        .Explore-h>h1 {
+            font-family: spacemono;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 160%;
+            color: #FFFFFF;
+        }
+
+        .footer-explore {
+            width: 133px;
+            height: 106px;
+        }
+
+        .footer-explore-pages>a {
+            font-family: worksans;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            color: #CCCCCC;
+            text-decoration: none;
+        }
+
+        .subscribe-form1 {
+            width: 100%;
+            position: relative;
+            background-color: #FFFFFF;
+            border-radius: 20px;
+        }
+
+        .email-input1 {
+            width: 100%;
+            height: 60px;
+            background: #FFFFFF;
+            border-color: transparent;
+            border-radius: 20px;
+            padding-left: 20px;
+
+            outline: 0;
+        }
+
+        .subscribe-btn1 {
+            width: 100%;
+            background: #A259FF;
+            border-radius: 20px;
+            justify-content: center;
+            align-items: center;
+            border-color: transparent;
+        }
+
+        .subscribe-btn1 {
+            font-family: worksans;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+            color: #FFFFFF;
+        }
+
+        @media (max-width: 425px) {
+
+            .navbartogglebtn {
+                width: 100% !important;
+                display: flex !important;
+                justify-content: space-between !important;
+            }
+
+            /* .create-account-col1 {
+
+                background-image: url(./src/img/galaxyphotoforsignuppagemobile.png) !important;
+            } */
+
+            .create-account-col2 {
+                padding-top: 30px !important;
+                padding-left: 30px !important;
+                padding-right: 30px !important;
+                /* display: flex !important;
+                justify-content: center !important; */
+            }
+
+            .create-account-col2>h1 {
+                font-weight: 600;
+                font-size: 38px;
+                line-height: 120%;
+            }
+
+            .create-account-col2>p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+                margin-right: 0 !important;
+                margin-bottom: 0 !important;
+            }
+
+            .input-box {
+                display: flex !important;
+                justify-content: center !important;
+            }
+
+
+            .create-account {
+                margin-bottom: 40px !important;
+            }
+
+            .username-input {
+                width: 100% !important;
+            }
+
+            .email-input {
+                width: 100% !important;
+            }
+
+            .password-input {
+                width: 100% !important;
+            }
+
+            .conf-password-input {
+                width: 100% !important;
+            }
+
+            .create-account-btn {
+                width: 100% !important;
+            }
+
+            .footer-icons {
+                margin-top: 20px;
+            }
+
+            .Explore-h {
+                margin-top: 30px;
+            }
+
         }
     </style>
 
@@ -195,7 +385,7 @@
 
         <div class="row">
 
-            <div class="navbar navbar-expand-lg ">
+            <div class="navbar navbar-expand-lg">
 
                 <div class="container">
 
@@ -255,13 +445,14 @@
 
         <div class="row">
 
-            <div class="col-md-6 col-lg-6 col-sm-12 create-account-col1">
+            <div class="col-md-6 col-lg-6 col-sm-12 create-account-col1 p-0">
 
                 <img src="./src/img/galaxyphotoforsignuppage.png" alt="">
 
             </div>
 
-            <div class="col-md-6 col-lg-6 col-sm-12 create-account-col2">
+            <div
+                class="col-md-6 col-lg-6 col-sm-12 create-account-col2 p-0 ps-5 d-flex flex-column justify-content-center">
 
                 <h1>Create account</h1>
 
@@ -304,8 +495,117 @@
 
                 </button>
 
+            </div>
 
+        </div>
 
+    </div>
+
+    <div class="container-fluid footer">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4 col-lg-4 col-sm-12">
+
+                    <div class="mb-4">
+                        <img src="./src/img/Logo.png" alt="">
+                    </div>
+
+                    <div>
+                        <div class="mb-3 footer-nft-marketplace">
+                            <span>NFT marketplace UI created with Anima for Figma.</span>
+                        </div>
+
+                        <div class="mb-2">
+                            <span style="font-family: worksans; font-weight: 400;
+                            font-size: 16px;
+                            line-height: 140%; color: #CCCCCC;">Join our community</span>
+                        </div>
+
+                        <div class="d-flex footer-icons justify-content-between">
+                            <div>
+                                <img src="./src/img/DiscordLogo.png" alt="">
+                            </div>
+                            <div>
+                                <img src="./src/img/YoutubeLogo.png" alt="">
+                            </div>
+                            <div>
+                                <img src="./src/img/TwitterLogo.png" alt="">
+                            </div>
+                            <div>
+                                <img src="./src/img/InstagramLogo.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-lg-3 col-sm-12">
+
+                    <div class="Explore-h">
+                        <h1>Explore</h1>
+                    </div>
+
+                    <div class="footer-explore">
+                        <div class="footer-explore-pages">
+                            <a href="#">Marketplace</a>
+                        </div>
+                        <div class="footer-explore-pages">
+                            <a href="#">Rankings</a>
+                        </div>
+                        <div class="footer-explore-pages">
+                            <a href="#">Connect a wallet</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5 col-lg-5 col-sm-12">
+
+                    <div class="mb-3">
+
+                        <h2 style="font-family: spacemono; font-weight: 700;
+                        font-size: 22px;
+                        line-height: 160%; color: #FFFFFF;">Join our weekly digest</h2>
+                        <span style="font-family: worksans; font-weight: 400;
+                        font-size: 16px;
+                        line-height: 140%; color: #CCCCCC;">Get exclusive promotions & updates <br> straight to your
+                            inbox.</span>
+
+                    </div>
+
+                    <div class="col-md-12 col-lg-12 col-sm-12 d-flex subscribe-form1">
+
+                        <input type="text" class="email-input1" placeholder="Enter your email here">
+
+                        <button type="submit" class="subscribe-btn1">
+
+                            <span>Subscribe</span>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="container">
+                    <hr style="border: 1px solid #858584;">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="container">
+                    <div class="col-md-12 col-lg-12 col-sm-12">
+                        <span style="font-family: worksans; font-weight: 400;
+                        font-size: 12px;
+                        line-height: 110%; color: #CCCCCC;">Ⓒ NFT Market. Use this template freely.</span>
+                    </div>
+                </div>
             </div>
 
         </div>
