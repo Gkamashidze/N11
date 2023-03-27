@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <title>Sign Up</title>
+
+    <style>
+        body {
+            background-color: #2B2B2B;
+            padding-top: 20px;
+        }
+
+        .navmenu li a:hover {
+            color: #A259FF !important;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url(./src/img/burgermenu.png);
+        }
+
+        .toggle-btn {
+            color: #2B2B2B;
+            background-color: #2B2B2B;
+        }
+
+        .main-nav {
+            display: flex;
+            justify-content: end;
+        }
+
+        .navmenu li>a {
+            color: #FFFFFF;
+            font-family: worksans;
+            text-decoration: none;
+        }
+
+        .navmenu {
+            display: flex;
+            align-items: center;
+
+            gap: 30px;
+        }
+
+        .sign-up-btn {
+            width: 152px;
+            height: 60px;
+            background: #A259FF;
+            border-radius: 20px;
+            border-color: transparent;
+            margin-left: 30px;
+        }
+
+        .create-account-col1>img {
+            /* width: 100%; */
+        }
+
+        .create-account-col2 {
+            padding-right: 150px;
+        }
+
+        .create-account-col2>h1 {
+            color: #FFFFFF;
+            font-weight: 600;
+            font-size: 51px;
+            line-height: 110%;
+        }
+
+        .create-account-col2>p {
+            color: #FFFFFF;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 160%;
+        }
+
+        .input-box {
+            gap: 15px;
+
+            margin-top: 40px;
+        }
+
+        .username-input {
+            width: 330px;
+            height: 46px;
+            background: #FFFFFF;
+            border: 1px solid #858584;
+            border-radius: 20px;
+
+            padding-left: 20px;
+
+            display: flex;
+            align-items: center;
+        }
+
+        .username-input input {
+            border-color: transparent;
+            outline: 0;
+
+            margin-left: 12px;
+        }
+
+        .email-input {
+            width: 330px;
+            height: 46px;
+            background: #FFFFFF;
+            border: 1px solid #858584;
+            border-radius: 20px;
+
+            padding-left: 20px;
+            display: flex;
+            align-items: center;
+
+        }
+
+        .email-input input {
+            border-color: transparent;
+            outline: 0;
+
+            margin-left: 12px;
+        }
+
+        .password-input {
+            width: 330px;
+            height: 46px;
+            background: #FFFFFF;
+            border: 1px solid #858584;
+            border-radius: 20px;
+
+            padding-left: 20px;
+
+            display: flex;
+            align-items: center;
+        }
+
+        .password-input input {
+            border-color: transparent;
+            outline: 0;
+
+            margin-left: 12px;
+        }
+
+        .conf-password-input {
+            width: 330px;
+            height: 46px;
+            background: #FFFFFF;
+            border: 1px solid #858584;
+            border-radius: 20px;
+
+            padding-left: 20px;
+
+            display: flex;
+            align-items: center;
+
+        }
+
+        .conf-password-input input {
+            border-color: transparent;
+            outline: 0;
+
+            margin-left: 12px;
+        }
+
+        .create-account-btn {
+            width: 330px;
+            height: 46px;
+
+            background: #A259FF;
+            border-radius: 20px;
+
+            margin-top: 30px;
+
+            border-color: transparent;
+        }
+
+        .create-account-btn>span {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+            color: #FFFFFF;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="navbar navbar-expand-lg ">
+
+                <div class="container">
+
+                    <div class="navbartogglebtn">
+
+                        <span class="navbar-brand brand" !important>
+                            <a class="navbar-brand" href="#">
+                                <img src="./src/img/Logo.png">
+                            </a>
+                        </span>
+
+                        <button class="navbar-toggler toggle-btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#mynav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                    </div>
+
+                    <div class="collapse navbar-collapse main-nav" id="mynav">
+
+                        <ul class="nav navbar-nav navbar-list navmenu">
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Marketplace</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Rankings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Connect a wallet</a>
+                            </li>
+                        </ul>
+
+                        <a href="sign-up.html" style="text-decoration: none;" target="_blank">
+
+                            <button class="btn sign-up-btn d-none d-md-flex  justify-content-center align-items-center"
+                                type="submit">
+
+                                <div class="me-2">
+                                    <img src="./src/img/uservector.png" alt="">
+                                </div>
+
+                                <span style="color: #FFFFFF; font-size: 16px;">Sign Up</span>
+
+                            </button>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container-fluid create-account">
+
+        <div class="row">
+
+            <div class="col-md-6 col-lg-6 col-sm-12 create-account-col1">
+
+                <img src="./src/img/galaxyphotoforsignuppage.png" alt="">
+
+            </div>
+
+            <div class="col-md-6 col-lg-6 col-sm-12 create-account-col2">
+
+                <h1>Create account</h1>
+
+                <p>Welcome! enter your details and start creating, collecting and selling NFTs.</p>
+
+                <div class="d-flex flex-column input-box">
+
+                    <div class="username-input">
+
+                        <img src="./src/img/User.png" alt="">
+                        <input type="text" placeholder="Username">
+
+                    </div>
+
+                    <div class="email-input">
+
+                        <img src="./src/img/EnvelopeSimplegrey.png" alt="">
+                        <input type="email" placeholder="Email Address">
+
+                    </div>
+
+                    <div class="password-input">
+
+                        <img src="./src/img/LockKey.png" alt="">
+                        <input type="password" placeholder="Password">
+
+                    </div>
+
+                    <div class="conf-password-input">
+
+                        <img src="./src/img/LockKey.png" alt="">
+                        <input type="password" placeholder="Confirm Password">
+
+                    </div>
+                </div>
+
+                <button class="create-account-btn">
+
+                    <span>Create account</span>
+
+                </button>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
