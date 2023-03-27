@@ -28,6 +28,8 @@
             padding-top: 20px;
         }
 
+
+
         .navmenu li a:hover {
             color: #A259FF !important;
         }
@@ -192,7 +194,7 @@
             margin-left: 12px;
         }
 
-        .create-account-btn {
+        /* .create-account-btn {
             width: 330px;
             height: 46px;
 
@@ -202,9 +204,21 @@
             margin-top: 30px;
 
             border-color: transparent;
+        } */
+
+        .create-account-btn>button {
+            width: 330px;
+
+            padding: 12px;
+            background: #A259FF;
+            border-radius: 20px;
+
+            margin-top: 30px;
+
+            border-color: transparent;
         }
 
-        .create-account-btn>span {
+        .create-account-btn>button>span {
             font-family: worksans;
             font-weight: 600;
             font-size: 16px;
@@ -303,6 +317,14 @@
 
         @media (max-width: 425px) {
 
+            body {
+                padding-top: 0 !important;
+            }
+
+            /* .main-nav {
+                margin-top: 0 !important;
+            } */
+
             .navbartogglebtn {
                 width: 100% !important;
                 display: flex !important;
@@ -362,8 +384,10 @@
                 width: 100% !important;
             }
 
-            .create-account-btn {
+            .create-account-btn>button {
                 width: 100% !important;
+                padding-top: 12px !important;
+                padding-bottom: 12px !important;
             }
 
             .footer-icons {
@@ -372,6 +396,23 @@
 
             .Explore-h {
                 margin-top: 30px;
+            }
+
+            .subscribe-form1 {
+                display: grid !important;
+                background-color: #3B3B3B !important;
+            }
+
+            .email-input1 {
+                width: 100% !important;
+                height: auto !important;
+                padding: 12px !important;
+            }
+
+            .subscribe-btn1 {
+                width: 100% !important;
+                padding: 12px !important;
+                margin-top: 16px !important;
             }
 
         }
@@ -385,7 +426,7 @@
 
         <div class="row">
 
-            <div class="navbar navbar-expand-lg">
+            <div class="navbar navbar-expand-lg main-nav">
 
                 <div class="container">
 
@@ -489,11 +530,15 @@
                     </div>
                 </div>
 
-                <button class="create-account-btn">
+                <div class="create-account-btn">
+                    <button>
 
-                    <span>Create account</span>
+                        <span>Create account</span>
 
-                </button>
+                    </button>
+                </div>
+
+
 
             </div>
 
@@ -581,6 +626,8 @@
                         <input type="text" class="email-input1" placeholder="Enter your email here">
 
                         <button type="submit" class="subscribe-btn1">
+
+                            <img src="./src/img/EnvelopeSimple.png" alt="">
 
                             <span>Subscribe</span>
 
