@@ -27,7 +27,7 @@ body {
 }
 
 .navbar-toggler-icon {
-background-image: url(./src/img/burgermenu.png);
+    background-image: url(./src/img/burgermenu.png);
 }
 
 .main-nav {
@@ -695,8 +695,30 @@ background-image: url(./src/img/burgermenu.png);
     position: relative;
 }
 
+.subscribe-widget-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 56px;
+    
+}
 
+.subscribe-widget-heading>h2 {
+    font-family: worksans;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
 
+.subscribe-widget-heading>span {
+    font-family: worksans;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
 
 @media (max-width: 425px) {
 
@@ -748,6 +770,10 @@ background-image: url(./src/img/burgermenu.png);
         font-weight: 400 !important;
         font-size: 12px !important;
         line-height: 140% !important;
+    }
+
+    .subscribe-widget-heading {
+       padding: 0;
     }
 
     .subscribe-widget-heading>h2 {
@@ -855,6 +881,8 @@ background-image: url(./src/img/burgermenu.png);
     position: relative;
     background-color: #FFFFFF;
     border-radius: 20px;
+
+    margin-top: 40px;
 }
 
 .subscribe-form1 {
@@ -868,12 +896,24 @@ background-image: url(./src/img/burgermenu.png);
 .subscribe-widget {
     background: #3B3B3B;
     border-radius: 20px;
+
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 60px;
     padding-right: 60px;
+
     margin-top: 40px;
     margin-bottom: 80px;
+}
+
+.subscribephoto {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.subscribephoto1 {
+    /* margin-top: 60px;
+    margin-bottom: 60px; */
 }
 
 @media (max-width: 425px) {
@@ -881,6 +921,8 @@ background-image: url(./src/img/burgermenu.png);
     .subscribe-form {
         display: grid !important;
         background-color: #2B2B2B !important;
+        padding: 0 !important;
+
     }
 
     .subscribe-form1 {
@@ -894,23 +936,27 @@ background-image: url(./src/img/burgermenu.png);
     }
 
     .subscribe-widget {
-        padding-top: 40px !important;
+        padding-top: 0 !important;
         padding-bottom: 0 !important;
         margin-top: 0px;
+        margin-bottom: 40px;
         background-color: transparent !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-        padding-left: 12px !important;
+        /* padding-left: 0 !important;
+        padding-right: 0 !important; */
+        /* padding-left: 12px !important; */
+        width: 100% !important;
     }
 
     .subscribephoto1 {
-        margin-bottom: 30px !important;
+        /* margin-bottom: 30px !important; */
         width: 100% !important;
+        margin: 0 !important;
     }
 
     .subscribephoto {
         width: 100% !important;
         height: auto !important;
+        padding: 0 !important;
     }
 
     .subscribe-btn {
@@ -933,7 +979,6 @@ background-image: url(./src/img/burgermenu.png);
 
 .subscribe-btn {
     width: 100%;
-    /* height: 100vh; */
     background: #A259FF;
     border-radius: 20px;
     justify-content: center;
@@ -957,6 +1002,10 @@ background-image: url(./src/img/burgermenu.png);
     justify-content: center;
     align-items: center;
     border-color: transparent;
+
+    width: 100%;
+
+
 }
 
 .email-input {
