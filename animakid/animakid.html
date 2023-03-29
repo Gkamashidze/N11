@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+    <style>
+        .main-nav {
+            display: flex;
+            justify-content: end;
+        }
+
+        .toggle-btn {
+            color: #2B2B2B;
+            background-color: #2B2B2B;
+        }
+
+        .navmenu {
+            display: flex;
+            align-items: center;
+
+            gap: 30px;
+        }
+
+        .navmenu li a:hover {
+            color: #A259FF !important;
+        }
+
+        .navmenu li>a {
+            color: #FFFFFF;
+            font-family: worksans;
+            text-decoration: none;
+        }
+
+        .sign-up-btn {
+            width: 152px;
+            height: 60px;
+            background: #A259FF;
+            border-radius: 20px;
+            border-color: transparent;
+            margin-left: 30px;
+        }
+
+        .sign-up-btn button {
+            width: 152px;
+            height: 60px;
+            border-radius: 20px;
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            font-family: worksans;
+        }
+
+        .section1-bg-image-box {
+            background-image: url(./img/animakidbgimage.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 320px;
+        }
+
+        @media (max-width: 425px) {
+
+            body {
+                padding-top: 0;
+            }
+
+            .navbartogglebtn {
+                width: 100% !important;
+                display: flex !important;
+                justify-content: space-between !important;
+            }
+
+            .navbar-toggler-icon {
+                background-image: url(../src/img/burgermenu.png);
+            }
+
+            .section1-bg-image-box {
+                background-image: url(./img/animakidbgimagemobile.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-top: 0;
+            }
+
+            .section2-btn-box {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .animakid-profile-header {
+                margin-bottom: 30px;
+            }
+
+            .animakid-profile-header>h1 {
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 140%;
+            }
+
+            .copy-btn {
+                width: 100%;
+            }
+
+            .follow-btn {
+                width: 100%;
+            }
+
+            .stats>h2 {
+                font-size: 22px;
+            }
+
+            .stats>span {
+                font-size: 16px;
+            }
+
+            .bio-box>h3 {
+                font-size: 16px;
+                line-height: 140%;
+            }
+
+            .bio-box>span {
+                font-size: 16px;
+                line-height: 140%;
+            }
+
+            .web-links>h3 {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+            }
+
+            .web-links-icons {
+                width: 160px;
+            }
+
+            .web-links-icons>img {
+                width: 24px;
+                height: 24px;
+            }
+
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="navbar navbar-expand-lg main-nav">
+
+                <div class="container">
+
+                    <div class="navbartogglebtn">
+
+                        <span class="navbar-brand brand" !important>
+                            <a class="navbar-brand" href="index.html">
+                                <img src="../src/img/Logo.png">
+                            </a>
+                        </span>
+
+                        <button class="navbar-toggler toggle-btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#mynav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                    </div>
+
+                    <div class="collapse navbar-collapse main-nav" id="mynav">
+
+                        <ul class="nav navbar-nav navbar-list navmenu">
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Marketplace</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Rankings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Connect a wallet</a>
+                            </li>
+                        </ul>
+
+                        <a href="sign-up.html" style="text-decoration: none;" target="_blank">
+
+                            <button class="btn sign-up-btn d-flex  justify-content-center align-items-center"
+                                type="submit">
+
+                                <div class="me-2">
+                                    <img src="../src/img/uservector.png" alt="">
+                                </div>
+
+                                <span style="color: #FFFFFF; font-size: 16px;">Sign Up</span>
+
+                            </button>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container-fluid section1">
+
+        <div class="row">
+
+            <div class="col-md-12 col-lg-12 col-sm-12 p-0 section1-bg-image-box">
+
+                <!-- <img src="./img/animakidbgimage.png" alt="" class="section1-bg-image"> -->
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container section2">
+
+        <div class="row">
+
+            <div class="col-md-6 col-lg-6 col-sm-12 animakid-profile-header">
+                <h1>Animakid</h1>
+            </div>
+
+            <div class="col-md-6 col-lg-6 col-sm-12 d-flex justify-content-end section2-btn-box">
+
+                <button class="copy-btn" type="button">
+
+                    <img src="./img/Copy.png" alt="">
+
+                    <span>0xc0E3...B79C</span>
+
+                </button>
+
+                <button class="follow-btn" type="button">
+
+                    <img src="./img/Plus.png" alt="">
+
+                    <span>Follow</span>
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6 col-lg-6 col-sm-12 d-flex justify-content-between stats-box">
+
+                <div class="stats">
+                    <h2>250k+</h2>
+                    <span>Volume</span>
+                </div>
+
+                <div class="stats">
+                    <h2>50+</h2>
+                    <span>NFTs Sold</span>
+                </div>
+
+                <div class="stats">
+                    <h2>3000+</h2>
+                    <span>Followers</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6 col-lg-6 col-sm-12 bio-box">
+
+                <h3>Bio</h3>
+
+                <span>The internet's friendliest designer kid.</span>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6 col-lg-6 col-sm-12 web-links">
+
+                <h3>Links</h3>
+
+                <div class="web-links-icons">
+
+                    <img src="./img/Globe.png" alt="">
+
+                    <img src="./img/DiscordLogo.png" alt="">
+
+                    <img src="./img/YoutubeLogo.png" alt="">
+
+                    <img src="./img/TwitterLogo.png" alt="">
+
+                    <img src="./img/InstagramLogo.png" alt="">
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container section3">
+
+        <div class="row">
+
+            <div class="col-4 d-flex justify-content-center tabs">
+
+                <h2>Created</h2>
+
+                <div class="frame1">
+
+                    <span>302</span>
+
+                </div>
+
+            </div>
+
+            <div class="col-4 d-flex justify-content-center tabs">
+
+                <h2>owned</h2>
+
+                <div class="frame2">
+
+                    <span>67</span>
+
+                </div>
+
+            </div>
+
+            <div class="col-4 d-flex justify-content-center tabs">
+
+                <h2>Collection</h2>
+
+                <div class="frame3">
+
+                    <span>4</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container-fluid section4">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4 col-lg-4 col-sm-12">
+
+                    <div class="nft-card">
+
+                        <div>
+                            <img src="../src/img/DistantGalaxy.png" alt="" style="width: 100%;">
+                        </div>
+
+                        <div class="nft-card-nft-info">
+
+                            <h2>Distant Galaxy</h2>
+
+                            <div class="d-flex artist-avatar">
+
+                                <img src="./img/Avatar.png" alt="">
+
+                                <span>Animakid</span>
+
+                            </div>
+
+                            <div class="d-flex justify-content-between distantgalaxy-add-info">
+
+                                <div class="distantgalaxy-add-info-box">
+                                    <h3>Price</h3>
+                                    <span>1.63 ETH</span>
+                                </div>
+
+                                <div class="distantgalaxy-add-info-box">
+                                    <h3>Highest Bid</h3>
+                                    <span>0.33 wETH</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 col-lg-4 col-sm-12">
+
+                    <div class="nft-card">
+
+                        <div>
+                            <img src="../src/img/LifeOnEdena.png" alt="" style="width: 100%;">
+                        </div>
+
+                        <div class="nft-card-nft-info">
+
+                            <h2>Life On Edena</h2>
+
+                            <div class="d-flex artist-avatar">
+
+                                <img src="./img/Avatar.png" alt="">
+
+                                <span>Animakid</span>
+
+                            </div>
+
+                            <div class="d-flex justify-content-between distantgalaxy-add-info">
+
+                                <div class="distantgalaxy-add-info-box">
+                                    <h3>Price</h3>
+                                    <span>1.63 ETH</span>
+                                </div>
+
+                                <div class="distantgalaxy-add-info-box">
+                                    <h3>Highest Bid</h3>
+                                    <span>0.33 wETH</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 col-lg-4 col-sm-12">
+
+                    <div class="nft-card">
+
+                        <div>
+                            <img src="../src/img/AstroFiction.png" alt="" style="width: 100%;">
+                        </div>
+
+                        <div class="nft-card-nft-info">
+
+                            <h2>AstroFiction</h2>
+
+                            <div class="d-flex artist-avatar">
+
+                                <img src="./img/Avatar.png" alt="">
+
+                                <span>Animakid</span>
+
+                            </div>
+
+                            <div class="d-flex justify-content-between distantgalaxy-add-info">
+
+                                <div class="distantgalaxy-add-info-box">
+                                    <h3>Price</h3>
+                                    <span>1.63 ETH</span>
+                                </div>
+
+                                <div class="distantgalaxy-add-info-box">
+                                    <h3>Highest Bid</h3>
+                                    <span>0.33 wETH</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row mt-4">
+
+                <div class="col-md-4 col-lg-4 col-sm-12">
+
+                    <div class="nft-card">
+
+                        <div>
+                            <img src="./img/cryptocity.png" alt="" style="width: 100%;">
+                        </div>
+
+                        <div class="nft-card-nft-info">
+
+                            <h2>CryptoCity</h2>
+
+                            <div class="d-flex artist-avatar">
+
+                                <img src="./img/Avatar.png" alt="">
+
+                                <span>Animakid</span>
+
+                            </div>
+
+                            <div class="d-flex justify-content-between distantgalaxy-add-info">
+
+                                <div class="distantgalaxy-add-info-box">
+                                    <h3>Price</h3>
+                                    <span>1.63 ETH</span>
+                                </div>
+
+                                <div class="distantgalaxy-add-info-box">
+                                    <h3>Highest Bid</h3>
+                                    <span>0.33 wETH</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 col-lg-4 col-sm-12">
+
+                    <div class="nft-card">
+
+                        <div>
+                            <img src="./img/colorfulldog.png" alt="" style="width: 100%;">
+                        </div>
+
+                        <div class="nft-card-nft-info">
+
+                            <h2>ColorfulDog 0524</h2>
+
+                            <div class="d-flex artist-avatar">
+
+                                <img src="./img/Avatar.png" alt="">
+
+                                <span>Animakid</span>
+
+                            </div>
+
+                            <div class="d-flex justify-content-between distantgalaxy-add-info">
+
+                                <div class="distantgalaxy-add-info-box">
+                                    <h3>Price</h3>
+                                    <span>1.63 ETH</span>
+                                </div>
+
+                                <div class="distantgalaxy-add-info-box">
+                                    <h3>Highest Bid</h3>
+                                    <span>0.33 wETH</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 col-lg-4 col-sm-12">
+
+                    <div class="nft-card">
+
+                        <div>
+                            <img src="./img/spacetabs.png" alt="" style="width: 100%;">
+                        </div>
+
+                        <div class="nft-card-nft-info">
+
+                            <h2>Space Tales</h2>
+
+                            <div class="d-flex artist-avatar">
+
+                                <img src="./img/Avatar.png" alt="">
+
+                                <span>Animakid</span>
+
+                            </div>
+
+                            <div class="d-flex justify-content-between distantgalaxy-add-info">
+
+                                <div class="distantgalaxy-add-info-box">
+                                    <h3>Price</h3>
+                                    <span>1.63 ETH</span>
+                                </div>
+
+                                <div class="distantgalaxy-add-info-box">
+                                    <h3>Highest Bid</h3>
+                                    <span>0.33 wETH</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row mt-4">
+
+                <div class="col-md-4 col-lg-4 col-sm-12">
+
+                    <div class="nft-card">
+
+                        <div>
+                            <img src="./img/cherrygirl.png" alt="" style="width: 100%;">
+                        </div>
+
+                        <div class="nft-card-nft-info">
+
+                            <h2>Cherry Blossom Girl 037</h2>
+
+                            <div class="d-flex artist-avatar">
+
+                                <img src="./img/Avatar.png" alt="">
+
+                                <span>Animakid</span>
+
+                            </div>
+
+                            <div class="d-flex justify-content-between distantgalaxy-add-info">
+
+                                <div class="distantgalaxy-add-info-box">
+                                    <h3>Price</h3>
+                                    <span>1.63 ETH</span>
+                                </div>
+
+                                <div class="distantgalaxy-add-info-box">
+                                    <h3>Highest Bid</h3>
+                                    <span>0.33 wETH</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 col-lg-4 col-sm-12">
+
+                    <div class="nft-card">
+
+                        <div>
+                            <img src="./img/dancingrobot.png" alt="" style="width: 100%;">
+                        </div>
+
+                        <div class="nft-card-nft-info">
+
+                            <h2>Dancing Robots 0987</h2>
+
+                            <div class="d-flex artist-avatar">
+
+                                <img src="./img/Avatar.png" alt="">
+
+                                <span>Animakid</span>
+
+                            </div>
+
+                            <div class="d-flex justify-content-between distantgalaxy-add-info">
+
+                                <div class="distantgalaxy-add-info-box">
+                                    <h3>Price</h3>
+                                    <span>1.63 ETH</span>
+                                </div>
+
+                                <div class="distantgalaxy-add-info-box">
+                                    <h3>Highest Bid</h3>
+                                    <span>0.33 wETH</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 col-lg-4 col-sm-12">
+
+                    <div class="nft-card">
+
+                        <div>
+                            <img src="./img/icecreameape.png" alt="" style="width: 100%;">
+                        </div>
+
+                        <div class="nft-card-nft-info">
+
+                            <h2>IceCream Ape </h2>
+
+                            <div class="d-flex artist-avatar">
+
+                                <img src="./img/Avatar.png" alt="">
+
+                                <span>Animakid</span>
+
+                            </div>
+
+                            <div class="d-flex justify-content-between distantgalaxy-add-info">
+
+                                <div class="distantgalaxy-add-info-box">
+                                    <h3>Price</h3>
+                                    <span>1.63 ETH</span>
+                                </div>
+
+                                <div class="distantgalaxy-add-info-box">
+                                    <h3>Highest Bid</h3>
+                                    <span>0.33 wETH</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid footer">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4 col-lg-4 col-sm-12">
+
+                    <div class="mb-4">
+                        <img src="../src/img/Logo.png" alt="">
+                    </div>
+
+                    <div>
+                        <div class="mb-3 footer-nft-marketplace">
+                            <span>NFT marketplace UI created with Anima for Figma.</span>
+                        </div>
+
+                        <div class="mb-2">
+                            <span style="font-family: worksans; font-weight: 400;
+                            font-size: 16px;
+                            line-height: 140%; color: #CCCCCC;">Join our community</span>
+                        </div>
+
+                        <div class="d-flex footer-icons justify-content-between">
+                            <div>
+                                <img src="../src/img/DiscordLogo.png" alt="">
+                            </div>
+                            <div>
+                                <img src="../src/img/YoutubeLogo.png" alt="">
+                            </div>
+                            <div>
+                                <img src="../src/img/TwitterLogo.png" alt="">
+                            </div>
+                            <div>
+                                <img src="../src/img/InstagramLogo.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-lg-3 col-sm-12">
+
+                    <div class="Explore-h">
+                        <h1>Explore</h1>
+                    </div>
+
+                    <div class="footer-explore">
+                        <div class="footer-explore-pages">
+                            <a href="#">Marketplace</a>
+                        </div>
+                        <div class="footer-explore-pages">
+                            <a href="#">Rankings</a>
+                        </div>
+                        <div class="footer-explore-pages">
+                            <a href="#">Connect a wallet</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5 col-lg-5 col-sm-12">
+
+                    <div class="mb-3">
+
+                        <h2 style="font-family: spacemono; font-weight: 700;
+                        font-size: 22px;
+                        line-height: 160%; color: #FFFFFF;">Join our weekly digest</h2>
+                        <span style="font-family: worksans; font-weight: 400;
+                        font-size: 16px;
+                        line-height: 140%; color: #CCCCCC;">Get exclusive promotions & updates <br> straight to your
+                            inbox.</span>
+
+                    </div>
+
+                    <div class="col-md-12 col-lg-12 col-sm-12 d-flex subscribe-form1">
+
+                        <input type="text" class="email-input1" placeholder="Enter your email here">
+
+                        <button type="submit" class="subscribe-btn1">
+
+                            <img src="./src/img/EnvelopeSimple.png" alt="" class="d-flex d-md-none">
+
+                            <span>Subscribe</span>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="container">
+                    <hr style="border: 1px solid #858584;" class="hr">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="container">
+                    <div class="col-md-12 col-lg-12 col-sm-12">
+                        <span style="font-family: worksans; font-weight: 400;
+                        font-size: 12px;
+                        line-height: 110%; color: #CCCCCC;">Ⓒ NFT Market. Use this template freely.</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
