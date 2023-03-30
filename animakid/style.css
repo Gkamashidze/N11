@@ -13,13 +13,21 @@ body {
     src: url(../src/fonts/spacemono.ttf);
 }
 
+/* .section1 {
+    position: relative;
+} */
+
 .section1-bg-image-box {
     /* width: 100%; */
     margin-top: 20px;
 }
 
+.animakid-profile {
+    position: relative;
+}
+
 .section2 {
-    padding-top: 40px;
+    padding-top: 90px;
 }
 
 .animakid-profile-header>h1 {
@@ -130,12 +138,32 @@ body {
     color: #858584;
 }
 
+/* .section3 {
+    padding-top: 10px;
+} */
+
+.tabs {
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+/* .tabs:hover {
+    text-decoration: underline;
+    color: #858584;
+    text-decoration-thickness: 2px;
+} */
+
+/* .tabs-hr>hr {
+    border: 1px solid #858584;
+} */
+
 .tabs>h2 {
     font-family: worksans;
     font-weight: 600;
     font-size: 22px;
     line-height: 140%;
     color: #858584;
+
 }
 
 .tabs>h2:hover {
@@ -273,7 +301,9 @@ body {
 }
 
 
-
+hr {
+    border: 1px solid #3B3B3B;
+}
 
 
 .footer {
